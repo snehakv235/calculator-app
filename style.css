@@ -1,6 +1,6 @@
 body{
     background:linear-gradient(to bottom,#dcd7d7,rgb(126, 208, 220),rgb(7, 146, 146));
-    margin-top: 4.2vh;
+    margin-top: 3vh;
 }
 
 .input{
@@ -9,7 +9,13 @@ body{
     border: 2px solid rgb(35, 115, 110);
     box-shadow: 2px 2px rgb(111, 151, 149);
     background-color: rgba(241, 234, 234, 0.948);
-    color: rgb(8, 69, 15)
+    color: rgb(8, 69, 15);
+    cursor: pointer;
+    
+}
+.input:hover{
+    background-color: rgb(166, 181, 181);
+    color: antiquewhite;
 }
 .button{
     border: 1px solid grey;
@@ -32,4 +38,15 @@ body{
     background:linear-gradient(to bottom,#dcd7d7,rgb(126, 208, 220),rgb(7, 146, 146));
 box-shadow:2px 5px rgb(4, 68, 79);
 padding: auto;
+}.history{
+    border: 1px solid rgb(24, 52, 52);
+    height:30px;
+    width:30%;
+    display: inline-block;
+    margin-left: 65%;
+    margin-bottom: 2px;
+    border-radius: 20%;
+    box-shadow: 2px  1px 1px 1px rgb(11, 69, 60);
+    color: rgb(4, 47, 49);
+text-shadow: 1px 1px rgb(8, 66, 55);
 }

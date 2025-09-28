@@ -67,7 +67,11 @@ result=numbers[0];
        }
    }
    }
+   //adding result to local storage
  document.querySelector(".input").value=result;
+document.querySelector(".history").innerHTML=JSON.parse(localStorage.getItem("result"))
+localStorage.setItem("result",JSON.stringify(result))
+
 })
 //enabling enter key to perform equaloperation
 document.addEventListener("keydown",function(event){
